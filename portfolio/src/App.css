@@ -1,1 +1,31 @@
+body {
+    height: 200vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
 
+header {
+    max-height: 50vh;
+    min-width: 100vw;
+    background-color: purple;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 15px;
+}
+
+.centering-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2 / 3;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+img {
+    border-radius: 100%;
+    max-width: 25%;
+    max-height: 50%;
+}
