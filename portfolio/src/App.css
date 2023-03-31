@@ -5,39 +5,6 @@ body {
     flex-direction: column;
 }
 
-/*header, #about-me {
-    max-height: 25%;
-    background-color: purple;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-}
-
-#about-me {
-    background-color: red;
-
-}
-
-
-.img-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-img {
-    border-radius: 100%;
-    margin-bottom: 20px;
-    max-width: 25%;
-}
-
-p {
-    margin: 5px;
-    text-align: center;
-}*/
-
 header {
     max-height: 25%;
     background-color: purple;
@@ -95,11 +62,11 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
 }
 
 .project-description-container {
     background-color: blue;
+    padding: 10px;
 }
 
 h3{
@@ -109,4 +76,36 @@ h3{
 .project-top-portion {
     display: flex;
     justify-content: space-between;
+}
+
+.project-top-portion {
+    white-space: nowrap;
+}
+
+.project-screenshot {
+    border-radius: 0px;
+    max-width: 100%;
+}
+
+.project-description-text {
+    text-align: start;
+}
+
+.project-link-icons {
+    display: flex;
+    max-width: 100%;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+button {
+    flex: 1 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.logo {
+    min-width: 100%;
 }

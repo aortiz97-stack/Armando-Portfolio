@@ -1,5 +1,7 @@
 import './App.css';
 import armandoImg from './images/armando_profile-modified.jpeg'
+import shoppingCartImg from './images/shopping-cart-project.png';
+import goToLink from './images/go-to-link.png';
 
 function App() {
   return (
@@ -19,24 +21,34 @@ function App() {
           <h2>Projects</h2>
           <div className="grid-img-container">
             <div className="project">
-              <div className="screenshot-container">Screenshot</div>
+              <div className="screenshot-container">
+                <img src={shoppingCartImg} alt="" className="project-screenshot" />
+              </div>
               <div className="project-description-container">
                 <div className="project-top-portion">
-                  <h3>Project Name</h3>
-                  <div className="project-link-icons">Icons here</div>
+                  <h3>Lemongrab's Online Shop</h3>
+                  <div className="project-link-icons">
+                    <button><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" className="logo" /></button>
+                    <button><img src={goToLink} alt="External link icon" className="logo" /></button>
+                  </div>
                 </div>
-                <p>Short description</p>
+                <p className="project-description-text">Shopping cart app inspired by Adventure Time</p>
               </div>
             </div>
 
             <div className="project">
-              <div className="screenshot-container">Screenshot</div>
+              <div className="screenshot-container">
+                <img src={shoppingCartImg} alt="" className="project-screenshot" />
+              </div>
               <div className="project-description-container">
                 <div className="project-top-portion">
-                  <h3>Project Name</h3>
-                  <div className="project-link-icons">Icons here</div>
+                  <h3>Lemongrab's Online Shop</h3>
+                  <div className="project-link-icons">
+                    <button><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" className="logo" /></button>
+                    <button><img src={goToLink} alt="External link icon" className="logo" /></button>
+                  </div>
                 </div>
-                <p>Short description</p>
+                <p className="project-description-text">Shopping cart app inspired by Adventure Time</p>
               </div>
             </div>
 
