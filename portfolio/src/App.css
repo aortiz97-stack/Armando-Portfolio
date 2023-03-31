@@ -5,27 +5,108 @@ body {
     flex-direction: column;
 }
 
-header {
-    max-height: 50vh;
-    min-width: 100vw;
+/*header, #about-me {
+    max-height: 25%;
     background-color: purple;
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    padding: 15px;
-}
-
-.centering-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    grid-column: 2 / 3;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 15px;
+}
+
+#about-me {
+    background-color: red;
+
+}
+
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
     border-radius: 100%;
+    margin-bottom: 20px;
     max-width: 25%;
+}
+
+p {
+    margin: 5px;
+    text-align: center;
+}*/
+
+header {
+    max-height: 25%;
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
     max-height: 50%;
+    background-color: yellow;
+}
+
+img {
+    max-width: 6.25%;
+    border-radius: 20px;
+}
+
+h1 {
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    margin: 5px;
+    text-align: center;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects {
+}
+
+.grid-img-container {
+    max-width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.screenshot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.project-description-container {
+    background-color: blue;
+}
+
+h3{
+    margin: 0;
+}
+
+.project-top-portion {
+    display: flex;
+    justify-content: space-between;
 }
