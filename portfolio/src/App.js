@@ -6,21 +6,23 @@ import memoryCardImg from './images/Memory-Card-Game.png';
 import calculatorImg from './images/calculator-project.png';
 import ticTacToeImg from './images/tic-tac-toe.png';
 import todoListImg from './images/todo-list-project.png';
+import dashBoardProjectImg from './images/dashboard-project.png';
 
 function App() {
   return (
     <div>
       <header>
-        <img src={armandoImg} alt=""/>
-        <h1>Armando Ortiz</h1>
-        <p>Aspiring Full-Stack Developer</p>
+        <div className="contents">
+          <div className="profile-pic-container"><img src={armandoImg} alt=""/></div>
+          <section id="about-me">
+            <h1>Armando Ortiz</h1>
+            <p>Aspiring Full-Stack Developer</p>
+            <h2>About Me</h2>
+            <p>I am a self-taught programmer with skills in frontend design.</p>
+          </section>
+        </div>
       </header>
       <main>
-        <section id="about-me">
-          <h2>About Me</h2>
-          <p>I am a self-taught programmer with skills in frontend design.</p>
-        </section>
-
         <section id="projects">
           <h2>Projects</h2>
           <div className="grid-img-container">
@@ -105,16 +107,26 @@ function App() {
             </div>
 
             <div className="project">
-              <div className="screenshot-container">Screenshot</div>
+              <div className="screenshot-container">
+                <img src={dashBoardProjectImg} alt="" className="project-screenshot" />
+              </div>
               <div className="project-description-container">
                 <div className="project-top-portion">
-                  <h3>Project Name</h3>
-                  <div className="project-link-icons">Icons here</div>
+                  <h3>Dashboard</h3>
+                  <div className="project-link-icons">
+                    <button><a href="https://github.com/aortiz97-stack/Dashboard-TODP" target='_blank' rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" className="logo" /></a></button>
+                    <button><a href="https://aortiz97-stack.github.io/Dashboard-TODP/" target='_blank' rel="noreferrer"><img src={goToLink} alt="External link icon" className="logo" /></a></button>
+                  </div>
                 </div>
-                <p>Short description</p>
+                <p className="project-description-text">Frontend design of a dashboard page</p>
               </div>
             </div>
           </div>
+        </section>
+
+        <section id="skills">
+          <h2>Skills</h2>
+
         </section>
       </main>
       <footer></footer>
