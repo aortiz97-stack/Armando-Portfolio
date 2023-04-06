@@ -12,7 +12,7 @@ function App() {
   return (
     <div>
       <header>
-        <div className="contents">
+        <div className="header-contents">
           <div className="profile-pic-container"><img src={armandoImg} alt=""/></div>
           <section id="about-me">
             <h1>Armando Ortiz</h1>
@@ -123,13 +123,16 @@ function App() {
             </div>
           </div>
         </section>
-
-        <section id="skills">
-          <h2>Skills</h2>
-
-        </section>
       </main>
-      <footer></footer>
+      <footer>
+        <h2>Contact Me</h2>
+        <h3>Email</h3>
+        <p>armando.ortiz.jr.19@outlook.com</p>
+        <h3>Phone Number</h3>
+        <p>346-284-4255</p>
+        <h3>Social Media</h3>
+        <div className="social-media-icons"></div>
+      </footer>
     </div>
   );
 }

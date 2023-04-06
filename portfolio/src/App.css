@@ -10,8 +10,7 @@ a {
 
 
 header {
-    /*max-height: 25%;*/
-    width: 100%;
+    max-width: 100%;
     background-color: purple;
     display: flex;
     align-items: center;
@@ -23,23 +22,26 @@ header {
     padding: 20px;
 }
 
-.contents {
-    display: flex;
-    justify-content: center;
+.header-contents {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
 
 .profile-pic-container {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    max-width: 50%;
 }
 
 header img {
-    max-width: 25%;
-    border-radius: 20px;
+    max-width: 100%;
+    /*border-radius: 20px;*/
     /*margin-left: 500px;*/
     /*grid-row: 1 / 5;*/
+}
+
+img {
+    max-width: 100%;
 }
 
 
@@ -70,21 +72,22 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;*/
-    flex-grow: 2;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    /*align-items: center;*/
+    text-align: center;
     background-color: white;
     padding: 30px;
     /*margin-right: 100px;*/
 }
 
-#about-me p, #about-me h2 {
+/*#about-me p, #about-me h2 {
     text-align: start;
-}
+}*/
 
 #about-me p, #about-me h2, #about-me h1 {
     margin-left: 0;
+    margin-right: 0;
 }
 
 #projects {
