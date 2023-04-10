@@ -34,7 +34,7 @@ header {
 }
 
 header img {
-    max-width: 100%;
+    max-width: 75%;
     /*border-radius: 20px;*/
     /*margin-left: 500px;*/
     /*grid-row: 1 / 5;*/
@@ -151,6 +151,10 @@ button {
 
 .logo {
     min-width: 100%;
+}
+
+.long-par {
+    text-align: start;
 }
 
 

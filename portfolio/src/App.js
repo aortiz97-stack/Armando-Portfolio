@@ -1,4 +1,7 @@
 import './App.css';
+import Icon from '@mdi/react';
+import { mdiEmailOutline } from '@mdi/js';
+import { mdiPhone } from '@mdi/js';
 import armandoImg from './images/armando_profile-modified.jpeg'
 import shoppingCartImg from './images/shopping-cart-project.png';
 import goToLink from './images/go-to-link.png';
@@ -18,7 +21,10 @@ function App() {
             <h1>Armando Ortiz</h1>
             <p>Aspiring Full-Stack Developer</p>
             <h2>About Me</h2>
-            <p>I am a self-taught programmer with skills in frontend design.</p>
+            <p className="long-par">I am a young professional looking to transition into a career in frontend development. I have experience as a theater costume designer during my undergraduate time at Dartmouth College, so I have an eye for intentional, practical, and impactful design. <br></br>
+            As a self-taught programmer, I pride myself in my ability to acquire new skills and stay up-to-date in the latest technologies. My preferred frontend library to work with is React, but I am flexible with working with a variety of frameworks and libraries. <br></br>
+            During my free time, I love vegetable gardening and watching cartoons! I draw a lot of artistic inspiration from this medium in the forms of visual inspiration and storytelling.
+            </p>
           </section>
         </div>
       </header>
@@ -126,12 +132,23 @@ function App() {
       </main>
       <footer>
         <h2>Contact Me</h2>
-        <h3>Email</h3>
-        <p>armando.ortiz.jr.19@outlook.com</p>
-        <h3>Phone Number</h3>
-        <p>346-284-4255</p>
+        <div className="email-container">
+          <Icon path={mdiEmailOutline} size={1} />
+          <p>armando.ortiz.jr.19@outlook.com</p>
+        </div>
+        <div className="phone-container">
+          <Icon path={mdiPhone} size={1} />
+          <p>346-284-4255</p>
+        </div>
         <h3>Social Media</h3>
-        <div className="social-media-icons"></div>
+        <div className="social-media-icons">
+          <button>
+            <a href="https://www.linkedin.com/in/aortiz97stack/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn icon" /></a>
+          </button>
+          <button>
+          <a href="https://github.com/aortiz97-stack"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub icon"/></a>
+          </button>
+        </div>
       </footer>
     </div>
   );
