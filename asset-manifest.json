@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Armando-Portfolio/static/css/main.3b06a089.css",
+    "main.js": "/Armando-Portfolio/static/js/main.708cdf5d.js",
+    "static/media/dashboard-project.png": "/Armando-Portfolio/static/media/dashboard-project.9752f9bfc68b9b5f4afd.png",
+    "static/media/Memory-Card-Game.png": "/Armando-Portfolio/static/media/Memory-Card-Game.db49245a0163920534ac.png",
+    "static/media/armando_profile-modified.jpeg": "/Armando-Portfolio/static/media/armando_profile-modified.5fb755ed20915374c1de.jpeg",
+    "static/media/shopping-cart-project.png": "/Armando-Portfolio/static/media/shopping-cart-project.fb8fb051be907d388ab9.png",
+    "static/media/todo-list-project.png": "/Armando-Portfolio/static/media/todo-list-project.a507a2e43eea27d62b63.png",
+    "static/media/calculator-project.png": "/Armando-Portfolio/static/media/calculator-project.0dc58a3ae951dada8645.png",
+    "static/media/tic-tac-toe.png": "/Armando-Portfolio/static/media/tic-tac-toe.2163fa49a62090f872e8.png",
+    "index.html": "/Armando-Portfolio/index.html",
+    "main.3b06a089.css.map": "/Armando-Portfolio/static/css/main.3b06a089.css.map",
+    "main.708cdf5d.js.map": "/Armando-Portfolio/static/js/main.708cdf5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b06a089.css",
+    "static/js/main.708cdf5d.js"
+  ]
+}
