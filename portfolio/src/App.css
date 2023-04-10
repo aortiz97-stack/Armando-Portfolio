@@ -27,10 +27,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    /*display: grid;
-    grid-template-columns: 1fr 1fr;*/
-    /*grid-template-rows: 1fr 1fr 1fr 2fr;*/
-    /*grid-template-rows: 1fr;*/
     padding: 20px;
 }
 
@@ -47,9 +43,6 @@ header {
 
 header img {
     max-width: 100%;
-    /*border-radius: 20px;*/
-    /*margin-left: 500px;*/
-    /*grid-row: 1 / 5;*/
 }
 
 img {
@@ -61,7 +54,6 @@ img {
 main {
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
     max-height: 50%;
 }
 
@@ -80,23 +72,13 @@ p {
 }
 
 #about-me {
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;*/
     display: flex;
     flex-direction: column;
-    /*align-items: center;*/
     text-align: center;
     background-color: white;
     padding: 30px;
     margin: 30px;
-    /*margin-right: 100px;*/
 }
-
-/*#about-me p, #about-me h2 {
-    text-align: start;
-}*/
 
 #about-me p, #about-me h2, #about-me h1 {
     margin-left: 0;
@@ -126,8 +108,6 @@ p {
 
 .project-description-container {
     background-color: #FEDAE2;
-    /*padding: 20px;*/
-    /*padding-top: 2px;*/
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     flex-grow: 1;
@@ -155,7 +135,6 @@ h3{
 }
 
 .project-screenshot {
-    /*border-radius: 0px;*/
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     max-width: 100%;
@@ -207,7 +186,6 @@ footer {
 
 .footer-content {
     background-color: white;
-    /*max-width: fit-content;*/
     min-width: 75%;
     padding-left: 20px;
     padding-right: 20px;
