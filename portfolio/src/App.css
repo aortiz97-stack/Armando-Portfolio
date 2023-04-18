@@ -125,7 +125,7 @@ h3{
 .project-top-portion {
     display: flex;
     justify-content: space-between;
-    background-color: #FEDAE2;
+    background-color: #CD558D;
     border-radius: 0px;
     padding: 20px;
 }
@@ -162,7 +162,7 @@ button {
 }
 
 .project-description-container button {
-    background-color: #FEDAE2;
+    background-color: #CD558D;
     border: none;
 }
 
