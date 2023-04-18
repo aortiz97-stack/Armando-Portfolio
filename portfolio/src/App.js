@@ -23,6 +23,7 @@ function App() {
             <h2>About Me</h2>
             <p className="long-par">I am a young professional looking to transition into a career in frontend development. I have experience as a theater costume designer during my undergraduate time at Dartmouth College, so I have an eye for intentional, practical, and impactful design.</p>
             <p className="long-par">As a self-taught programmer, I pride myself in my ability to acquire new skills and stay up-to-date in the latest technologies. My preferred frontend library to work with is React, but I am flexible with working with a variety of frameworks and libraries.</p>
+            <p className="long-par">I primarily focus on creating landing pages and simple interactive applications, such as the applications below.</p>
             <p className="long-par">During my free time, I love vegetable gardening and watching cartoons! I draw a lot of artistic inspiration from this medium in the forms of visual inspiration and storytelling.</p>
           </section>
         </div>
@@ -156,16 +157,3 @@ function App() {
 
 export default App;
 
-/*<header>
-          <div className="img-container"><img src={armandoImg} alt=""/></div>
-          <h1>Armando Ortiz</h1>
-          <p>Aspiring Full-Stack Developer</p>
-
-      </header>
-      <main>
-        <section id="about-me">
-          <div className="centering-container">
-            <h2>About Me</h2>
-          </div>
-        </section>
-      </main>*/
