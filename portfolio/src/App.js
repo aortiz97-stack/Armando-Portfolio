@@ -34,7 +34,7 @@ function App() {
           <div className="grid-img-container">
             <div className="project">
               <div className="screenshot-container">
-                <a href='https://github.com/aortiz97-stack/Shopping-Cart' target='_blank' rel="noreferrer"><img src={shoppingCartImg} alt="" className="project-screenshot" /></a>
+                <a href="https://aortiz97-stack.github.io/Shopping-Cart/" target='_blank' rel="noreferrer"><img src={shoppingCartImg} alt="" className="project-screenshot" /></a>
               </div>
               <div className="project-description-container">
                 <div className="project-top-portion">
@@ -50,7 +50,7 @@ function App() {
 
             <div className="project">
               <div className="screenshot-container">
-                <a href="https://github.com/aortiz97-stack/Memory-Card" target="_blank" rel="noreferrer"><img src={memoryCardImg} alt="" className="project-screenshot" /></a>
+                <a href="https://aortiz97-stack.github.io/Memory-Card/" target="_blank" rel="noreferrer"><img src={memoryCardImg} alt="" className="project-screenshot" /></a>
               </div>
               <div className="project-description-container">
                 <div className="project-top-portion">
@@ -66,7 +66,7 @@ function App() {
 
             <div className="project">
               <div className="screenshot-container">
-                <a href="https://github.com/aortiz97-stack/TODP-calculator" target='_blank' rel="noreferrer"><img src={calculatorImg} alt="" className="project-screenshot" /></a>
+                <a href="https://aortiz97-stack.github.io/TODP-calculator/" target='_blank' rel="noreferrer"><img src={calculatorImg} alt="" className="project-screenshot" /></a>
               </div>
               <div className="project-description-container">
                 <div className="project-top-portion">
@@ -82,7 +82,7 @@ function App() {
 
             <div className="project">
               <div className="screenshot-container">
-                <a href="https://github.com/aortiz97-stack/TODO-List-TODP" target='_blank' rel="noreferrer"><img src={todoListImg} alt="" className="project-screenshot" /></a>
+                <a href="https://aortiz97-stack.github.io/TODO-List-TODP/" target='_blank' rel="noreferrer"><img src={todoListImg} alt="" className="project-screenshot" /></a>
               </div>
               <div className="project-description-container">
                 <div className="project-top-portion">
@@ -98,7 +98,7 @@ function App() {
 
             <div className="project">
               <div className="screenshot-container">
-                <a href="https://github.com/aortiz97-stack/Tic-Tac-Toe-TODP" target='_blank' rel="noreferrer"><img src={ticTacToeImg} alt="" className="project-screenshot" /></a>
+                <a href="https://aortiz97-stack.github.io/Tic-Tac-Toe-TODP/" target='_blank' rel="noreferrer"><img src={ticTacToeImg} alt="" className="project-screenshot" /></a>
               </div>
               <div className="project-description-container">
                 <div className="project-top-portion">
@@ -114,7 +114,7 @@ function App() {
 
             <div className="project">
               <div className="screenshot-container">
-                <a href="https://github.com/aortiz97-stack/Dashboard-TODP" target='_blank' rel="noreferrer"><img src={dashBoardProjectImg} alt="" className="project-screenshot" /></a>
+                <a href="https://aortiz97-stack.github.io/Dashboard-TODP/" target='_blank' rel="noreferrer"><img src={dashBoardProjectImg} alt="" className="project-screenshot" /></a>
               </div>
               <div className="project-description-container">
                 <div className="project-top-portion">
