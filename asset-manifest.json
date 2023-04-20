@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Armando-Portfolio/static/css/main.1479b531.css",
-    "main.js": "/Armando-Portfolio/static/js/main.a32c9698.js",
+    "main.js": "/Armando-Portfolio/static/js/main.1f804fe7.js",
     "static/media/dashboard-project.png": "/Armando-Portfolio/static/media/dashboard-project.9752f9bfc68b9b5f4afd.png",
     "static/media/Memory-Card-Game.png": "/Armando-Portfolio/static/media/Memory-Card-Game.db49245a0163920534ac.png",
     "static/media/armando_profile-modified.jpeg": "/Armando-Portfolio/static/media/armando_profile-modified.5fb755ed20915374c1de.jpeg",
@@ -11,10 +11,10 @@
     "static/media/tic-tac-toe.png": "/Armando-Portfolio/static/media/tic-tac-toe.2163fa49a62090f872e8.png",
     "index.html": "/Armando-Portfolio/index.html",
     "main.1479b531.css.map": "/Armando-Portfolio/static/css/main.1479b531.css.map",
-    "main.a32c9698.js.map": "/Armando-Portfolio/static/js/main.a32c9698.js.map"
+    "main.1f804fe7.js.map": "/Armando-Portfolio/static/js/main.1f804fe7.js.map"
   },
   "entrypoints": [
     "static/css/main.1479b531.css",
-    "static/js/main.a32c9698.js"
+    "static/js/main.1f804fe7.js"
   ]
 }
