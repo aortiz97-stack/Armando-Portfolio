@@ -1,2 +1,2 @@
 # Armando-Portfolio
-Portfolio webpage for my previous work
+Practice portfolio webpage for my previous work
